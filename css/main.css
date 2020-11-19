@@ -522,6 +522,7 @@ input.input100 {
 /*//////////////////////////////////////////////////////////////////
 [ LG ]*/
 @media (max-width: 992px) {
+  .logo-cibcca{margin-top: 75px;}
   .m-0-lg {margin: 0;}
   .m-lr-0-lg {margin-left: 0; margin-right: 0;}
   .m-lr-15-lg {margin-left: 15px; margin-right: 15px;}
