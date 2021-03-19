@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on CIBCCA</title>
+    <link>https://cibcca.cl/beta/categories/</link>
+    <description>Recent content in Categories on CIBCCA</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Mar 2020 12:14:34 +0600</lastBuildDate><atom:link href="https://cibcca.cl/beta/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Proyecto</title>
+      <link>https://cibcca.cl/beta/categories/proyecto/</link>
+      <pubDate>Sun, 01 Mar 2020 12:14:34 +0600</pubDate>
+      
+      <guid>https://cibcca.cl/beta/categories/proyecto/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Histórica</title>
+      <link>https://cibcca.cl/beta/categories/hist%C3%B3rica/</link>
+      <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
+      
+      <guid>https://cibcca.cl/beta/categories/hist%C3%B3rica/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
