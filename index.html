@@ -1,459 +1,131 @@
 <!DOCTYPE html>
-<html lang="en-us"><head>
-  <meta charset="utf-8">
-  <title>CIBCCA</title>
+<html lang="en">
+<head>
+	<title>CIBCCA</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->	
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
+</head>
+<body>
+	
+	
+	<div class="size1 bg0 where1-parent">
+		<!-- Coutdown -->
+		<div class="flex-c-m bg-img1 size2 where1 overlay1 where2 respon2" style="background-color: #333399">
+			<div class="wsize2 flex-w flex-c-m cd100 js-tilt">
+				<img class="logo-cibcca" src="images/logo.svg" alt="LOGO">
+			</div>
+		</div>
+		
+		<!-- Form -->
+		<div class="size3 flex-col-sb flex-w p-l-75 p-r-75 p-t-45 p-b-45 respon1">
+			<div class="wrap-pic1">
+				<img src="images/icons/logo.png" alt="LOGO">
+			</div>
 
-  <!-- mobile responsive meta -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Corporación para la Integración del Borde Costero Central de Arica">
-  <meta name="author" content="José Luis Roco Contreras">
-  <meta name="generator" content="Hugo 0.78.2" />
+			<div class="p-t-50 p-b-60">
+                <p class="s2-txt3 m-b-20">Corporación para la Integración del Borde Costero Central de Arica</p>
+				<p class="m1-txt1 p-b-36">
+					¡Nuestro sitio estará disponible <span class="m1-txt2">muy pronto</span>!
+				</p>
 
-  <style>
-    :root{
-      --primary-color:#333895;
-    }
-  </style>
+                <form class="contact100-form validate-form"   
+                action="https://formspree.io/f/xknpzyko"
+                method="POST">
+					<div class="wrap-input100 m-b-10 validate-input" data-validate = "Debes ingresar un nombre válido">
+						<input class="s2-txt1 placeholder0 input100" type="text" name="name" placeholder="Tu nombre">
+						<span class="focus-input100"></span>
+					</div>
 
-  <!-- plugins -->
-  
-  <link rel="stylesheet" href="/plugins/bootstrap/bootstrap.min.css ">
-  
-  <link rel="stylesheet" href="/plugins/slick/slick.css ">
-  
-  <link rel="stylesheet" href="/plugins/themify-icons/themify-icons.css ">
-  
+					<div class="wrap-input100 m-b-20 validate-input" data-validate = "Es necesario que escribas un correo, ejemplo: hola@mail.com">
+						<input class="s2-txt1 placeholder0 input100" type="text" name="email" placeholder="Dirección de correo">
+						<span class="focus-input100"></span>
+					</div>
 
-  <!-- Main Stylesheet -->
-  
-  <link rel="stylesheet" href="/css/style.min.css" media="screen">
+					<div class="w-full">
+						<button type="submit" class="flex-c-m s2-txt2 size4 bg1 bor1 hov1 trans-04">
+							Enviar
+						</button>
+					</div>
+				</form>
 
-  <!--Favicon-->
-  <link rel="apple-touch-icon" sizes="57x57" href="/images/apple-icon-57x57.png ">
-  <link rel="apple-touch-icon" sizes="60x60" href="/images/apple-icon-60x60.png ">
-  <link rel="apple-touch-icon" sizes="72x72" href="/images/apple-icon-72x72.png ">
-  <link rel="apple-touch-icon" sizes="76x76" href="/images/apple-icon-76x76.png ">
-  <link rel="apple-touch-icon" sizes="114x114" href="/images/apple-icon-114x114.png ">
-  <link rel="apple-touch-icon" sizes="120x120" href="/images/apple-icon-120x120.png ">
-  <link rel="apple-touch-icon" sizes="144x144" href="/images/apple-icon-144x144.png ">
-  <link rel="apple-touch-icon" sizes="152x152" href="/images/apple-icon-152x152.png ">
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-icon-180x180.png ">
-  <link rel="icon" type="image/png" sizes="192x192"  href="/images/android-icon-192x192.png ">
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png ">
-  <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon-96x96.png ">
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png ">
-  <link rel="manifest" href="/images/manifest.json ">
-  <meta name="msapplication-TileColor" content="#333895">
-  <meta name="msapplication-TileImage" content="/images/ms-icon-144x144.png ">
-  <meta name="theme-color" content="#333895">
+				<p class="s2-txt3 p-t-18">
+					No te preocupes, no te enviaremos spam, sólo te avisaremos cuando nuestro sitio esté disponible.
+				</p>
+			</div>
 
-  
-	<!-- Global Site Tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-NY5J92LSDS"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
+			<div class="flex-w">
+				<div class="flex-c-m size5 m-r-5">
+					<!-- <i class="fa fa-instagram"></i> -->
+				</div>
+			</div>
+		</div>
+	</div>
 
-	  gtag('config', 'G-NY5J92LSDS');
-	</script>
+
+
 	
 
-</head>
+<!--===============================================================================================-->	
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/countdowntime/moment.min.js"></script>
+	<script src="vendor/countdowntime/moment-timezone.min.js"></script>
+	<script src="vendor/countdowntime/moment-timezone-with-data.min.js"></script>
+	<script src="vendor/countdowntime/countdowntime.js"></script>
+	<script>
+		$('.cd100').countdown100({
+			/*Set Endtime here*/
+			/*Endtime must be > current time*/
+			endtimeYear: 2020,
+			endtimeMonth: 11,
+			endtimeDate: 30,
+			endtimeHours: 9,
+			endtimeMinutes: 0,
+			endtimeSeconds: 0,
+			timeZone: "America/Antiago" 
+			// ex:  timeZone: "America/New_York"
+			//go to " http://momentjs.com/timezone/ " to get timezone
+		});
+	</script>
+<!--===============================================================================================-->
 
-<body>
-<!-- preloader start -->
-<div class="preloader">
-  
-  <img src="/images/preloader.gif " alt="preloader">
-  
-</div>
-<!-- preloader end -->
-<header class="navigation fixed-top">
-  <nav class="navbar navbar-expand-lg navbar-dark">
-    <a class="navbar-brand" href="/">
-        <img class="logo-cibcca" src="../images/logo-white.svg" alt="CIBCCA">
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
-      aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
 
-    <div class="collapse navbar-collapse text-center" id="navigation">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="/"> Inicio </a>
-        </li>
-        
-        
-        
-        
-        
-        <li class="nav-item ">
-          <a class="nav-link" href="/about">Corporación</a>
-        </li>
-        
-        
-        
-        
-        
-        <li class="nav-item ">
-          <a class="nav-link" href="/blog">Noticias</a>
-        </li>
-        
-        
-        
-        
-        
-        <li class="nav-item ">
-          <a class="nav-link" href="/portfolio">Galería</a>
-        </li>
-        
-        
-        
-        
-        
-        <li class="nav-item ">
-          <a class="nav-link" href="/contact">Contacto</a>
-        </li>
-        
-        
-      </ul>
-    </div>
-  </nav>
-</header>
-
-  
-  <section class="hero-area bg-primary overflow-hidden" id="parallax">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-11 mx-auto">
-          <h1 class="text-grey font-tertiary">Corporación para la Integración del Borde Costero Central de Arica</h1>
-        </div>
-      </div>
-    </div>
-    <div class="layer-bg w-100">
-      <img class="img-fluid w-100" src="/images/illustrations/leaf-bg-blue.png" alt="bg-shape">
-    </div>
-    <div class="layer" id="l2">
-      <img src="/images/illustrations/dots-cyan.svg" alt="bg-shape">
-    </div>
-    
-    <div class="layer" id="l4">
-      <img src="/images/illustrations/dots-orange.svg" alt="bg-shape">
-    </div>
-    
-    
-    <div class="layer" id="l7">
-      <img src="/images/illustrations/dots-group-orange.svg" alt="bg-shape">
-    </div>
-    
-    
-    
-    <ul class="list-unstyled ml-5 mt-3 position-relative zindex-1">
-      
-    </ul>
-    
-  </section>
-  
-
-  
-  
-  <section class="section">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-10 mx-auto text-center">
-          
-          <p class="lead text-dark">La Corporación para la Integración del Borde Costero de Arica es una entidad sin fines de lucro, creada para convocar e integrar a actores públicos y privados que comparten el interés de contribuir al desarrollo urbano de Arica en su borde costero central.</p>
-          
-          
-          <a href="/about" class="btn btn-transparent">Más Información</a>
-          
-          
-          
-        </div>
-      </div>
-    </div>
-  </section>
-  
-  
-
-
-  
-
-  
-
-  
-
-
-  
-  
-  
-  <section class="section">
-    <div class="container">
-      <div class="row">
-        <div class="col-12 text-center">
-          <h2 class="section-title">Pilares para la Integración</h2>
-        </div>
-        
-        <div class="col-md-6 mb-4">
-          <div class="card  hover-shadow shadow">
-            <div class="card-body text-center px-4 py-5">
-              <i class="ti-marker icon mb-5 d-inline-block"></i>
-              <h4 class="mb-4">Convenio Público-Privado</h4>
-              <p>Capitalizar la oportunidad de recuperar el Borde Costero Central y construirlo armónicamente. Integrar objetivos de proyectos sectoriales para la zona (PEDZE, PLADECO, PRCA, etc.).</p>
-            </div>
-          </div>
-        </div>
-        
-        <div class="col-md-6 mb-4">
-          <div class="card  hover-shadow shadow">
-            <div class="card-body text-center px-4 py-5">
-              <i class="ti-panel icon mb-5 d-inline-block"></i>
-              <h4 class="mb-4">Diseño Integrado</h4>
-              <p>Traducir demandas en propuestas sintéticas y con sentido de realidad. Incorporar otras disciplinas profesionales para un desarrollo urbano sustentable.</p>
-            </div>
-          </div>
-        </div>
-        
-      </div>
-    </div>
-  </section>
-  
-  
-  
-
-
-  
-  
-  <section class="section">
-    <div class="container">
-      <div class="row">
-        <div class="col-12 text-center">
-          <h2 class="section-title">Galería de Imágenes</h2>
-        </div>
-      </div>
-      <div class="row shuffle-wrapper">
-        
-        
-        <div class="col-lg-4 col-6 mb-4 shuffle-item">
-          <div class="position-relative rounded hover-wrapper">
-            <img src="/images/portfolio/item-10.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
-            <div class="hover-overlay">
-              <div class="hover-content">
-                <a class="btn btn-light btn-sm" href="/portfolio/project-10/">Saber más</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <div class="col-lg-4 col-6 mb-4 shuffle-item">
-          <div class="position-relative rounded hover-wrapper">
-            <img src="/images/portfolio/item-11.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
-            <div class="hover-overlay">
-              <div class="hover-content">
-                <a class="btn btn-light btn-sm" href="/portfolio/project-11/">Saber más</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <div class="col-lg-4 col-6 mb-4 shuffle-item">
-          <div class="position-relative rounded hover-wrapper">
-            <img src="/images/portfolio/item-12.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
-            <div class="hover-overlay">
-              <div class="hover-content">
-                <a class="btn btn-light btn-sm" href="/portfolio/project-12/">Saber más</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <div class="col-lg-4 col-6 mb-4 shuffle-item">
-          <div class="position-relative rounded hover-wrapper">
-            <img src="/images/portfolio/item-13.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
-            <div class="hover-overlay">
-              <div class="hover-content">
-                <a class="btn btn-light btn-sm" href="/portfolio/project-13/">Saber más</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <div class="col-lg-4 col-6 mb-4 shuffle-item">
-          <div class="position-relative rounded hover-wrapper">
-            <img src="/images/portfolio/item-14.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
-            <div class="hover-overlay">
-              <div class="hover-content">
-                <a class="btn btn-light btn-sm" href="/portfolio/project-14/">Saber más</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <div class="col-lg-4 col-6 mb-4 shuffle-item">
-          <div class="position-relative rounded hover-wrapper">
-            <img src="/images/portfolio/item-15.jpg" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
-            <div class="hover-overlay">
-              <div class="hover-content">
-                <a class="btn btn-light btn-sm" href="/portfolio/project-15/">Saber más</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-      </div>
-    </div>
-  </section>
-  
-  
-
-
-  
-
-
-  
-
-  
-  
-  <section class="section">
-    <div class="container">
-      <div class="row">
-        <div class="col-12 text-center">
-          <h2 class="section-title">Últimas Noticias</h2>
-        </div>
-        
-      </div>
-    </div>
-  </section>
-  
-  
-
-
-
-
-<section class="section section-on-footer" data-background="/images/backgrounds/bg-dots.png">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 text-center">
-        <h2 class="section-title">Información de Contacto</h2>
-      </div>
-      <div class="col-lg-8 mx-auto">
-        <div class="bg-white rounded text-center p-5 shadow-down">
-          <h4 class="mb-80">Escríbenos usando el siguiente formulario</h4>
-          <form action="https://formspree.io/f/xknpzyko" method="POST" class="row">
-            <div class="col-md-6">
-              <input type="text" id="name" name="name" placeholder="Nombre completo" class="form-control px-0 mb-4">
-            </div>
-            <div class="col-md-6">
-              <input type="email" id="email" name="email" placeholder="Dirección de correo" class="form-control px-0 mb-4">
-            </div>
-            <div class="col-12">
-              <textarea name="message" id="message" class="form-control px-0 mb-4"
-                placeholder="Escribe tu mensaje"></textarea>
-            </div>
-            <div class="col-lg-6 col-10 mx-auto">
-              <button class="btn btn-primary w-100">Enviar</button>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-
-
-<footer class="bg-dark footer-section">
-  <div class="section">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-          <h5 class="text-light">Correo</h5>
-          <p class="text-white paragraph-lg font-secondary">jose.roco@cibcca.cl</p>
-        </div>
-        <div class="col-md-4">
-          <h5 class="text-light">Teléfono</h5>
-          <p class="text-white paragraph-lg font-secondary">&#43;xxx xxx xxxx</p>
-        </div>
-        <div class="col-md-4">
-          <h5 class="text-light">Dirección</h5>
-          <p class="text-white paragraph-lg font-secondary">Ingresar Dirección</p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="border-top text-center border-dark py-5">
-    <p class="mb-0 text-light">Copyright © 2021 CIBCCA</p>
-  </div>
-</footer>
-
-
-<!-- Google Map API -->
-
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDcYmkpfUJlz82RUknm_QR07ZBtmATaViE&amp;#038;types=%28cities%29&amp;#038;libraries=places&amp;#038;language=en"></script>
-
-
-<!-- JS Plugins -->
-
-<script src="/plugins/jQuery/jquery.min.js"></script>
-
-<script src="/plugins/bootstrap/bootstrap.min.js"></script>
-
-<script src="/plugins/slick/slick.min.js"></script>
-
-<script src="/plugins/shuffle/shuffle.min.js"></script>
-
-<script src="/plugins/google-map/map.js"></script>
-
-
-<!-- Main Script -->
-
-<script src="/js/script.min.js"></script>
-
-
-
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
-<div id="js-cookie-box" class="cookie-box cookie-box-hide">
-	Este sitio utiliza cookies. Para continuar navegando en este sitio web debe aceptar su uso <span id="js-cookie-button" class="btn btn-sm btn-primary ml-2">Acepto</span>
-</div>
-<script>
-	(function ($) {
-		const cookieBox = document.getElementById('js-cookie-box');
-		const cookieButton = document.getElementById('js-cookie-button');
-		if (!Cookies.get('cookie-box')) {
-			cookieBox.classList.remove('cookie-box-hide');
-			cookieButton.onclick = function () {
-				Cookies.set('cookie-box', true, {
-					expires:  2 
-				});
-				cookieBox.classList.add('cookie-box-hide');
-			};
-		}
-	})(jQuery);
-</script>
-
-
-<style>
-.cookie-box {
-  position: fixed;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  text-align: center;
-  z-index: 9999;
-  padding: 1rem 2rem;
-  background: rgb(71, 71, 71);
-  transition: all .75s cubic-bezier(.19, 1, .22, 1);
-  color: #fdfdfd;
-}
-
-.cookie-box-hide {
-  display: none;
-}
-</style>
 </body>
-
 </html>
