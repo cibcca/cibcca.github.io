@@ -83,6 +83,16 @@
   </url>
   
   <url>
+    <loc>https://cibcca.cl/beta/blog/</loc>
+    <lastmod>2020-05-12T12:14:34+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cibcca.cl/beta/blog/plan-maestro-intervencion/</loc>
+    <lastmod>2020-05-12T12:14:34+06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://cibcca.cl/beta/categories/a%C3%A9reas/</loc>
     <lastmod>2020-03-01T12:14:34+06:00</lastmod>
   </url>
@@ -100,6 +110,16 @@
   <url>
     <loc>https://cibcca.cl/beta/portfolio/project-33/</loc>
     <lastmod>2020-03-01T12:14:34+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cibcca.cl/beta/blog/plan-de-trabajo/</loc>
+    <lastmod>2020-02-12T12:14:34+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cibcca.cl/beta/blog/parque-ecosistemico/</loc>
+    <lastmod>2020-01-12T12:14:34+06:00</lastmod>
   </url>
   
   <url>
@@ -133,7 +153,7 @@
   </url>
   
   <url>
-    <loc>https://cibcca.cl/beta/categories/hist%C3%B3rica/</loc>
+    <loc>https://cibcca.cl/beta/categories/hist%C3%B3ricas/</loc>
     <lastmod>1988-03-01T12:14:34+06:00</lastmod>
   </url>
   
@@ -212,10 +232,6 @@
   
   <url>
     <loc>https://cibcca.cl/beta/tags/</loc>
-  </url>
-  
-  <url>
-    <loc>https://cibcca.cl/beta/blog/</loc>
   </url>
   
 </urlset>
