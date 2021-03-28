@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Noticias on CIBCCA</title>
+    <link>https://cibcca.cl/blog/</link>
+    <description>Recent content in Noticias on CIBCCA</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 12 May 2020 12:14:34 +0600</lastBuildDate><atom:link href="https://cibcca.cl/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Plan Maestro de Intervención</title>
+      <link>https://cibcca.cl/blog/plan-maestro-intervencion/</link>
+      <pubDate>Tue, 12 May 2020 12:14:34 +0600</pubDate>
+      
+      <guid>https://cibcca.cl/blog/plan-maestro-intervencion/</guid>
+      <description>Durante el 2020 se elaboró un Plan Maestro de Intervención el cual ya se encuentra terminado.</description>
+    </item>
+    
+    <item>
+      <title>Plan de trabajo 2021-2022</title>
+      <link>https://cibcca.cl/blog/plan-de-trabajo/</link>
+      <pubDate>Wed, 12 Feb 2020 12:14:34 +0600</pubDate>
+      
+      <guid>https://cibcca.cl/blog/plan-de-trabajo/</guid>
+      <description>Ya se cuenta con las primeras imágenes del futuro borde costero central.</description>
+    </item>
+    
+    <item>
+      <title>Parque Ecosistémico</title>
+      <link>https://cibcca.cl/blog/parque-ecosistemico/</link>
+      <pubDate>Sun, 12 Jan 2020 12:14:34 +0600</pubDate>
+      
+      <guid>https://cibcca.cl/blog/parque-ecosistemico/</guid>
+      <description>Sobre un terreno de aproximadamente 7.000 m2 continúa sostenidamente el crecimiento de árboles y plantas que darán lugar al futuro Parque Ecosistémico.</description>
+    </item>
+    
+  </channel>
+</rss>
