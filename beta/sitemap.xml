@@ -93,7 +93,7 @@
   </url>
   
   <url>
-    <loc>https://cibcca.cl/beta/categories/a%C3%A9reas/</loc>
+    <loc>https://cibcca.cl/beta/categories/2020/</loc>
     <lastmod>2020-03-01T12:14:34+06:00</lastmod>
   </url>
   
@@ -123,8 +123,18 @@
   </url>
   
   <url>
-    <loc>https://cibcca.cl/beta/categories/actuales/</loc>
-    <lastmod>2015-09-01T12:14:34+06:00</lastmod>
+    <loc>https://cibcca.cl/beta/categories/2015/</loc>
+    <lastmod>2015-11-01T12:14:34+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cibcca.cl/beta/portfolio/aereas-2/</loc>
+    <lastmod>2015-11-01T12:14:34+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cibcca.cl/beta/portfolio/aereas-1/</loc>
+    <lastmod>2015-10-01T12:14:34+06:00</lastmod>
   </url>
   
   <url>
@@ -159,16 +169,6 @@
   
   <url>
     <loc>https://cibcca.cl/beta/portfolio/actuales-3/</loc>
-    <lastmod>2015-03-01T12:14:34+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://cibcca.cl/beta/portfolio/aereas-1/</loc>
-    <lastmod>2015-03-01T12:14:34+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://cibcca.cl/beta/portfolio/aereas-2/</loc>
     <lastmod>2015-03-01T12:14:34+06:00</lastmod>
   </url>
   
