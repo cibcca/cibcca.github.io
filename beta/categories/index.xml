@@ -17,20 +17,20 @@
     </item>
     
     <item>
-      <title>Actuales</title>
-      <link>https://cibcca.cl/beta/categories/actuales/</link>
-      <pubDate>Sun, 01 Mar 2020 12:14:34 +0600</pubDate>
-      
-      <guid>https://cibcca.cl/beta/categories/actuales/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Aéreas</title>
       <link>https://cibcca.cl/beta/categories/a%C3%A9reas/</link>
       <pubDate>Sun, 01 Mar 2020 12:14:34 +0600</pubDate>
       
       <guid>https://cibcca.cl/beta/categories/a%C3%A9reas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Actuales</title>
+      <link>https://cibcca.cl/beta/categories/actuales/</link>
+      <pubDate>Sun, 01 Mar 2015 12:14:34 +0600</pubDate>
+      
+      <guid>https://cibcca.cl/beta/categories/actuales/</guid>
       <description></description>
     </item>
     
