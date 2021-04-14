@@ -1364,6 +1364,14 @@ function zoom(e){
   y = offsetY/zoomer.offsetHeight*100
   zoomer.style.backgroundPosition = x + '% ' + y + '%';
 }
+$(document).ready(function(){
+    if(window.matchMedia("(max-width: 767px)").matches){
+        
+        $('.zoom').addClass("zoomphone");
+        $('.zoom').removeClass("zoom");        
+    } else{
+    }
+});
 </script>
 
 <script>
