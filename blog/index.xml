@@ -6,11 +6,20 @@
     <description>Recent content in Noticias on CIBCCA</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 12 May 2020 12:14:34 +0600</lastBuildDate><atom:link href="https://cibcca.cl/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 14 Apr 2020 12:14:34 +0600</lastBuildDate><atom:link href="https://cibcca.cl/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Trabajo colaborativo</title>
+      <link>https://cibcca.cl/blog/trabajo-colaborativo/</link>
+      <pubDate>Tue, 14 Apr 2020 12:14:34 +0600</pubDate>
+      
+      <guid>https://cibcca.cl/blog/trabajo-colaborativo/</guid>
+      <description>La Corporación ha iniciado un trabajo colaborativo con otras instancias públicas y/o privadas.</description>
+    </item>
+    
     <item>
       <title>Plan Maestro de Intervención</title>
       <link>https://cibcca.cl/blog/plan-maestro-intervencion/</link>
-      <pubDate>Tue, 12 May 2020 12:14:34 +0600</pubDate>
+      <pubDate>Thu, 12 Mar 2020 12:14:34 +0600</pubDate>
       
       <guid>https://cibcca.cl/blog/plan-maestro-intervencion/</guid>
       <description>Durante el 2020 se elaboró un Plan Maestro de Intervención el cual ya se encuentra terminado.</description>
@@ -31,7 +40,7 @@
       <pubDate>Sun, 12 Jan 2020 12:14:34 +0600</pubDate>
       
       <guid>https://cibcca.cl/blog/parque-ecosistemico/</guid>
-      <description>Sobre un terreno de aproximadamente 7.000 m2 continúa sostenidamente el crecimiento de árboles y plantas que darán lugar al futuro Parque Ecosistémico.</description>
+      <description>Sobre un terreno de aproximadamente 7.000 m2 continúa sostenidamente el crecimiento de árboles y plantas que darán lugar al futuro Parque del Borde Costero Central.</description>
     </item>
     
   </channel>
