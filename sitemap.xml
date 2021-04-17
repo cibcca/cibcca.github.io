@@ -3,16 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://cibcca.cl/categories/</loc>
-    <lastmod>2021-04-01T12:14:34+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://cibcca.cl/</loc>
-    <lastmod>2021-04-01T12:14:34+06:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://cibcca.cl/portfolio/project-21/</loc>
     <lastmod>2021-04-01T12:14:34+06:00</lastmod>
   </url>
@@ -43,6 +33,16 @@
   </url>
   
   <url>
+    <loc>https://cibcca.cl/categories/</loc>
+    <lastmod>2021-04-01T12:14:34+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cibcca.cl/</loc>
+    <lastmod>2021-04-01T12:14:34+06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://cibcca.cl/portfolio/</loc>
     <lastmod>2021-04-01T12:14:34+06:00</lastmod>
   </url>
@@ -53,32 +53,17 @@
   </url>
   
   <url>
-    <loc>https://cibcca.cl/portfolio/project-10/</loc>
+    <loc>https://cibcca.cl/portfolio/project-15/</loc>
     <lastmod>2021-03-01T12:14:34+06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://cibcca.cl/portfolio/project-11/</loc>
-    <lastmod>2021-03-01T12:14:34+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://cibcca.cl/portfolio/project-12/</loc>
+    <loc>https://cibcca.cl/portfolio/project-19/</loc>
     <lastmod>2021-03-01T12:14:34+06:00</lastmod>
   </url>
   
   <url>
     <loc>https://cibcca.cl/portfolio/project-13/</loc>
-    <lastmod>2021-03-01T12:14:34+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://cibcca.cl/portfolio/project-14/</loc>
-    <lastmod>2021-03-01T12:14:34+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://cibcca.cl/portfolio/project-15/</loc>
     <lastmod>2021-03-01T12:14:34+06:00</lastmod>
   </url>
   
@@ -93,17 +78,32 @@
   </url>
   
   <url>
+    <loc>https://cibcca.cl/portfolio/project-20/</loc>
+    <lastmod>2021-03-01T12:14:34+06:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://cibcca.cl/portfolio/project-18/</loc>
     <lastmod>2021-03-01T12:14:34+06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://cibcca.cl/portfolio/project-19/</loc>
+    <loc>https://cibcca.cl/portfolio/project-14/</loc>
     <lastmod>2021-03-01T12:14:34+06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://cibcca.cl/portfolio/project-20/</loc>
+    <loc>https://cibcca.cl/portfolio/project-11/</loc>
+    <lastmod>2021-03-01T12:14:34+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cibcca.cl/portfolio/project-10/</loc>
+    <lastmod>2021-03-01T12:14:34+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cibcca.cl/portfolio/project-12/</loc>
     <lastmod>2021-03-01T12:14:34+06:00</lastmod>
   </url>
   
