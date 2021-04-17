@@ -113,22 +113,12 @@
   </url>
   
   <url>
-    <loc>https://cibcca.cl/categories/2015/</loc>
-    <lastmod>2020-12-05T12:14:34+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://cibcca.cl/portfolio/project-31/</loc>
-    <lastmod>2020-12-05T12:14:34+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://cibcca.cl/categories/2020/</loc>
+    <loc>https://cibcca.cl/portfolio/actuales-2020-12/</loc>
     <lastmod>2020-12-01T12:14:34+06:00</lastmod>
   </url>
   
   <url>
-    <loc>https://cibcca.cl/portfolio/actuales-2020-12/</loc>
+    <loc>https://cibcca.cl/categories/2020/</loc>
     <lastmod>2020-12-01T12:14:34+06:00</lastmod>
   </url>
   
@@ -173,7 +163,7 @@
   </url>
   
   <url>
-    <loc>https://cibcca.cl/blog/parque-ecosistemico/</loc>
+    <loc>https://cibcca.cl/blog/plan-maestro-intervencion/</loc>
     <lastmod>2020-04-12T12:14:34+06:00</lastmod>
   </url>
   
@@ -183,7 +173,7 @@
   </url>
   
   <url>
-    <loc>https://cibcca.cl/blog/plan-maestro-intervencion/</loc>
+    <loc>https://cibcca.cl/blog/plan-de-trabajo/</loc>
     <lastmod>2020-03-12T12:14:34+06:00</lastmod>
   </url>
   
@@ -193,7 +183,7 @@
   </url>
   
   <url>
-    <loc>https://cibcca.cl/blog/plan-de-trabajo/</loc>
+    <loc>https://cibcca.cl/blog/parque-ecosistemico/</loc>
     <lastmod>2020-02-12T12:14:34+06:00</lastmod>
   </url>
   
@@ -210,6 +200,16 @@
   <url>
     <loc>https://cibcca.cl/portfolio/actuales-2020-1/</loc>
     <lastmod>2020-01-01T12:14:34+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cibcca.cl/portfolio/project-31/</loc>
+    <lastmod>2015-12-05T12:14:34+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cibcca.cl/categories/2015/</loc>
+    <lastmod>2015-12-05T12:14:34+06:00</lastmod>
   </url>
   
   <url>
